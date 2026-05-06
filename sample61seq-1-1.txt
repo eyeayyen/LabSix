@@ -1,0 +1,32 @@
+Welcome to the Futoshiki solver
+Enter a puzzle number: 61
+_ _<_ _>_ 6
+^   ^       
+_ _ _ _ _ _
+      ^     
+_ _ 3 _ _ 4
+            
+_>_ _ _ _<_
+    V       
+_ _ _ _ _<_
+            
+_>_ 5 _ _ 3
+
+How would you like to solve the puzzle
+1. Sequential
+2. Fork/Join
+1
+Solving sequentially...
+3 1<2 5>4 6
+^   ^       
+6 3 4 2 5 1
+      ^     
+1 5 3 6 2 4
+            
+5>4 6 3 1<2
+    V       
+2 6 1 4 3<5
+            
+4>2 5 1 6 3
+
+Solution found in 0.361 seconds
